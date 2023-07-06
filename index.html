@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Lightly-HTML-Project</title>
+      <style>
+
+      /* 用户头像设置：尺寸大小，位置，形状等 */
+       .avatar-container {
+      position: absolute;
+      top: 25px;
+      left: 30px;
+      display: flex;
+      align-items: center;
+    }
+
+    .avatar {
+      width: 80px;
+      height: 90px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 15px;
+    }
+
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .user-info {
+      display: flex;
+      flex-direction: column;
+      color: white;
+    }
+
+    .user-info span {
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+
+    .fans-count{
+        font-size:20px;
+        color: crimson;
+    }
+
+
+
+    .yh{
+      cursor: pointer;
+      
+      color:black;
+    }
+
+    
+
+    
+
+
+        /* 背景颜色 */
+      body{
+        background-color: aqua;
+        background-image: url(背景.jpg);
+      }
+
+      h1{
+         text-align: center;
+         color:yellow;
+         font-size: 33px;
+      }
+
+      h2{
+        text-align: center;
+      }
+
+      p{
+        text-align: center;
+      }
+
+      h3{
+        text-align: center;
+        font-size: 30px;
+      }
+
+      a{
+         text-align: center;
+        font-size: 30px;
+        color: crimson;
+      }
+
+     
+
+
+      </style>
+  </head>
+  <body>
+      <h1>作品</h1>
+
+       <div class="avatar-container">
+    <div class="avatar">
+      <img src="1.jpg" alt="User Avatar" id="avatar"  style="cursor: pointer;">
+    </div>
+
+    
+      <span class="yh" id="username"  style="cursor: pointer;">用户名:</span>
+      <span class="y">鹿已眠</span>
+
+      
+      </div>
+
+      
+
+
+     
+      <script>
+    
+    <!-- 点击头像进入作品页面的JS设置监听事件 -->
+    // 获取头像的元素对象
+    var avatar = document.getElementById('avatar');
+
+    // 监听头像的点击事件
+    avatar.addEventListener('click', function() {
+      // 页面跳转到目标地址
+      window.location.href = '用户页面.html' ;
+    });
+
+
+
+   // 获取用户名元素对象
+    var username = document.getElementById('username');
+
+    // 监听用户名的点击事件
+    username.addEventListener('click', function() {
+      // 重定向到可更改用户名的页面
+      window.location.href = '用户页面.html' ;
+    });
+  </script>
+  
+  <!-- 用户、关注、粉丝文本设置 -->
+       
+      <span class="gz">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关注：</span>
+      <span class="g">100</span>
+      </div>
+
+      <br>
+       <span class="fans">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;粉丝：</span>
+       <span class="fans-count">9999万+</span>
+    </div>
+
+  </div>
+      <br>
+      <h2>影视&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文案&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;素材</h2>
+      <br><br><br><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://2460085751.github.io/abc/">文案库</a>
+      <p>
+      <video src="./y7.mp4" controls width="400" height="300"></video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <video src="./w1.mp4" controls width="400" height="300"></video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <video src="./s8.mp4" controls width="400" height="300"></video>
+      <h3>1</h3></p>
+      <p><video src="./y5.mp4" controls width="400" height="300"></video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <video src="./w2.mp4" controls width="400" height="300"></video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <video src="./s1.mp4" controls width="400" height="300"></video>
+      <h3>2</h3></p>
+      <p><video src="./y1.mp4" controls width="400" height="300"></video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <video src="./w3.mp4" controls width="400" height="300"></video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <video src="1.mp4" controls width="400" height="300"></video>
+      <h3>3</h3></p>
+      <p><video src="./y4.mp4" controls width="400" height="300"></video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <video src="./w4.mp4" controls width="400" height="300"></video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <video src="./s4.mp4" controls width="400" height="300"></video>
+      <h3>4</h3></p>
+     <p> <video src="./y2.mp4" controls width="400" height="300"></video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <video src="./w5.mp4" controls width="400" height="300"></video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <video src="4.mp4" controls width="400" height="300"></video>
+      <h3>5</h3></p>
+      <p><video src="./y6.mp4" controls width="400" height="300"></video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <video src="./w6.mp4" controls width="400" height="300"></video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <video src="./s6.mp4" controls width="400" height="300"></video>
+      <h3>6</h3></p>
+      <p><video src="./y3.mp4" controls width="400" height="300"></video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <video src="./w7.mp4" controls width="400" height="300"></video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <video src="3.mp4" controls width="400" height="300"></video>
+      <h3>7</h3></p>
+     <p> <video src="./y8.mp4" controls width="400" height="300"></video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <video src="./w8.mp4" controls width="400" height="300"></video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <video src="2.mp4" controls width="400" height="300"></video><br><h3>8</h3></p>
+
+      <div>
+        <a href="http://2460085751.github.io/abc/"  target="_blank"></a>
+
+      </div>
+     
+
+     
+  </body>
+</html>
